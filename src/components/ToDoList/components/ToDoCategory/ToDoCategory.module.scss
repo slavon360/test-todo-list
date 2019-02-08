@@ -1,0 +1,15 @@
+.Category {
+    padding: 10px 25px;
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    &:hover {
+        font-weight: 700;
+        background-color: #8a90a0;
+    }
+}
+.Category.Active {
+    font-weight: 700;
+    background-color: #8a90a0;
+}

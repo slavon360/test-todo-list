@@ -1,0 +1,34 @@
+.SideNav {
+    padding: 10px 0 25px;
+
+    .TodoCategories {
+        margin-top: 25px;
+        min-height: calc(100vh - 180px);
+
+        @media only screen and (max-width: 600px) {
+            min-height: auto;
+        }
+    }
+    .PlusSign {
+        background-color: #717173;
+        color: #fff;
+        display: inline-block;
+        margin-right: 10px;
+        height: 25px;
+        border-radius: 50%;
+        width: 25px;
+        font-size: 22px;
+    }
+    .ButtonsText {
+        font-size: 22px;
+        color: #555;
+    }
+    .AddListBtn {
+      margin-left: 15px;
+      &:hover {
+          .ButtonsText{
+              text-decoration: underline;
+          }
+      }
+    }
+}

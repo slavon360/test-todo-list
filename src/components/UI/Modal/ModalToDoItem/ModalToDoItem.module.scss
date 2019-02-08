@@ -1,0 +1,32 @@
+.CategoryName {
+    color: #e89c3e;
+    font-size: 22px;
+    font-weight: 600;
+    border-bottom: 1px solid #eee;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.ItemName, .ItemInputWrp {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.ItemInputWrp {
+    border-bottom: 1px solid #ddd;
+    margin-left: 10px;
+
+    .ItemInput {
+        font-size: inherit;
+    }
+}
+
+.Controls {
+    margin-top: 25px;
+
+    .Save, .Cancel {
+        font-size: 20px;
+        margin-right: 25px;
+    }
+}

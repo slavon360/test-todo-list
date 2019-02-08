@@ -1,0 +1,26 @@
+.ToDoList {
+    .SideNav, .ToDoItems {
+        display: inline-block;
+    }
+    .SideNav {
+        background-color: #d5d5dd;
+        width: 35%;
+        min-height: 100vh;
+
+        @media only screen and (max-width: 600px) {
+            display: block;
+            width: 100%;
+            min-height: auto;
+        }
+    }
+    .ToDoItems {
+        width: 65%;
+        vertical-align: top;
+        background-color: #fff;
+
+        @media only screen and (max-width: 600px) {
+            display: block;
+            width: 100%;
+        }
+    }
+}

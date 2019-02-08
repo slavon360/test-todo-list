@@ -1,0 +1,33 @@
+
+.Checkbox {
+        display: none;
+}
+.ToDoName {
+        margin-left: 10px; 
+        display: inline-block;
+        font-size: 16px;
+        border-bottom: 1px solid #ededed;
+        padding-bottom: 8px;
+}
+.ToDoItem {
+    display: flex;
+    margin-bottom: 20px;
+    .CheckboxLabel {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        border: 1px solid #bbb;
+        border-radius: 50%;
+        position: relative;
+    }
+    .CheckboxLabel.Active::before {
+        content: '';
+        position: absolute;
+        top: 7px;
+        left: 7px;
+        width: 6px;
+        height: 6px;
+        background-color: #aaa;
+        border-radius: 50%;
+    }
+}

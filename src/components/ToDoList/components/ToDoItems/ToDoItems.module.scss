@@ -1,0 +1,30 @@
+.ToDoItems {
+    padding: 25px 15px; 
+    .Head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #eee;
+        > h1 {
+            color: #e89c3e;
+        }
+        .AddToDoItem {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            color: #888;
+            font-size: 30px;
+            height: 35px;
+            padding: 0 15px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #888;
+                color: #fff;
+            }
+        }
+    }
+    .ItemsArea {
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,22 @@
+.CategoryName, .CategoryInputWrp {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.CategoryInputWrp {
+    border-bottom: 1px solid #ddd;
+    margin-left: 10px;
+
+    .CategoryInput {
+        font-size: inherit;
+    }
+}
+
+.Controls {
+    margin-top: 25px;
+
+    .Save, .Cancel {
+        font-size: 20px;
+        margin-right: 25px;
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "categories": [
+        {
+            "id": "jpg5tmla",
+            "name": "Shopping",
+            "list": [
+                {
+                    "id": "jpg5tmlb",
+                    "name": "Carrots",
+                    "done": true
+                },
+                {
+                    "id": "jpg5tmlc",
+                    "name": "Coffee",
+                    "done": false
+                }
+            ]
+        },
+        {
+            "id": "jpg5tml1",
+            "name": "Work",
+            "list": [
+                {
+                    "id": "jpg5tml2",
+                    "name": "Time Log",
+                    "done": false
+                },
+                {
+                    "id": "jpg5tml3",
+                    "name": "Estimating",
+                    "done": false
+                }
+            ]
+        },
+        {
+            "id": "jpg5tm10",
+            "name": "Reading",
+            "list": [
+                {
+                    "id": "jpg5tm11",
+                    "name": "Stephen King",
+                    "done": false
+                },
+                {
+                    "id": "jpg5tml2",
+                    "name": "Ivan Franko",
+                    "done": false
+                },
+                {
+                    "id": "jpg5tm13",
+                    "name": "Ivan Kotliarevsky",
+                    "done": false
+                },
+                {
+                    "id": "jpg5tml4",
+                    "name": "Taras Shevchenko",
+                    "done": false
+                }
+            ]
+        },
+        {
+            "id": "jpg5t9la",
+            "name": "Workout",
+            "list": [
+                {
+                    "id": "jpg5t9lb",
+                    "name": "3 km running",
+                    "done": true
+                },
+                {
+                    "id": "jpg5t9lc",
+                    "name": "20 push ups",
+                    "done": false
+                }
+            ]
+        }
+    ],
+    "activeIndex": 0
+}
